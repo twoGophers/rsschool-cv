@@ -1,1 +1,1 @@
-# https://github.com/twoGophers/rsschool-cv.git
+# https://github.com/twoGophers/rsschool-cv/
