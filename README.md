@@ -1,1 +1,0 @@
-# https://github.com/twoGophers/rsschool-cv.git
