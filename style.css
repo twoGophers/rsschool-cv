@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(104, 103, 101);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 103, 101);
+}
+p, a {
+    font-size: 1.2em;
+}
+li {
+    font-size: 1.1em;
+    list-style-type: none;
+    line-height: 1.5em;
+}
+.cv {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin: 5% 0%;
+    padding: 5%;
+    width: 800px;
+    height: 100%;
+}
+
+/*Header block*/
+.headerBlock {
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+.profile, .contact {
+    margin: 1%;
+    width: 50%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.fotoUser {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fotoUser img{
+    width: 50%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone, .telegram{
+    margin: 3% 0% 3% 0%;
+}
+
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+}
+
+.abouMeBlock p {
+    font-size: 1.1em;
+    margin-left: 5%;
+}
+
+.abouMeBlock div{
+    margin-top: 5%;
+}
+
+footer a {
+    font-size: 1.0em;
+    border: 1px solid rgb(146, 144, 144);
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    color: rgb(83, 83, 83);
+    border: 1px solid rgb(83, 83, 83);
+    background: rgb(233, 232, 232);
+    transition: 1s;
+}
